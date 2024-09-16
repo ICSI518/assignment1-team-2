@@ -1,8 +1,8 @@
 // Function to subtract two numbers
 // Take 2 numbers as input and return subtraction as output
-function subtract(a, b) {
+const subtract=(a, b)=> {
   return a - b;
-}
+};
 
 // Function to add two numbers
 // Take 2 numbers as input and gives their sum  as output
@@ -25,6 +25,7 @@ function divide(a, b) {
   return a / b;
 
 }
+
 
 // Example usage
 const a = 10;
