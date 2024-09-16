@@ -1,5 +1,5 @@
-// Function to subtract two 
-// Take 2 numbers as input and return (num1-num2) as output
+// Function to subtract two numbers
+// Take 2 numbers as input and return subtraction as output
 function subtract(a, b) {
   return a - b;
 }
@@ -11,11 +11,13 @@ function add(a, b) {
 }
 
 // Function to multiply two numbers
+// Take 2 numbers as input and gives their product  as output
 function multiply(a, b) {
   return a * b;
 }
 
 // Function to divide two numbers
+// Take 2 numbers as input and gives their quotient  as output
 function divide(a, b) {
   if (b === 0) {
     return "Error: Division by zero";
